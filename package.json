@@ -16,5 +16,8 @@
     "url": "https://github.com/aa-trsv/js-learn/issues"
   },
   "homepage": "https://github.com/aa-trsv/js-learn#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
