@@ -23,7 +23,6 @@ class Card {
     // getCost – возвращает стоимость корзины.
     // Общая стоимость корзины высчитывается как стоимость всех добавленных товаров с учетом их количества.
     getCost() {
-        // return this.card.reduce((sum, current) => sum + (current.item.price * current.count), 0 );
         return this.card.reduce((sum, current) => sum + this.getCostItem(current), 0 );
     }
 
