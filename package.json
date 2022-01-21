@@ -18,6 +18,8 @@
   "homepage": "https://github.com/aa-trsv/js-learn#readme",
   "description": "",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "async": "^3.2.3",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7"
   }
 }
